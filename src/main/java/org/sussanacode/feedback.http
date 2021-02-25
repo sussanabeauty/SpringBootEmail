@@ -1,0 +1,9 @@
+POST http://localhost:8080/feedback/reply
+Content-Type: application/json
+
+{
+  "name": "Amanda White",
+  "email": "amandawhite@gmail.com",
+  "reply": "Sending email with SpringBoot JavaMailer..."
+}
+
